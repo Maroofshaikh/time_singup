@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #f782d6, #e03da1, #f883fa, #5550f1);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input,
+select,
+textarea {
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #af4c93;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.button-group button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    flex: 1;
+    margin-right: 5px;
+}
+
+.button-group button:last-child {
+    margin-right: 0;
+}
+
+#registrationSuccess {
+    margin-top: 20px;
+    text-align: center;
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#stepIndicator {
+    margin-top: 20px;
+}
+
+.indicator {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 70%;
+    margin: 0 5px;
+}
+
+#stepIndicator span.active {
+    background-color: #4caf50;
+}
+
+.separator {
+    margin: 0 10px;
+    font-size: 20px;
+    color: #999;
+}
